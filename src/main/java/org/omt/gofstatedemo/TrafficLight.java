@@ -1,8 +1,8 @@
 // MIT License
-package com.oti.gofstatedemo;
+package org.omt.gofstatedemo;
 
-import com.oti.gofstatedemo.state.State;
-import com.oti.gofstatedemo.state.StateBroken;
+import org.omt.gofstatedemo.state.State;
+import org.omt.gofstatedemo.state.StateBroken;
 
 /**
  * This is the main context in our application.

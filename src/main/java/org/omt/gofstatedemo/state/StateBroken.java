@@ -1,7 +1,7 @@
 // MIT License
-package com.oti.gofstatedemo.state;
+package org.omt.gofstatedemo.state;
 
-import com.oti.gofstatedemo.TrafficLight;
+import org.omt.gofstatedemo.TrafficLight;
 
 /**
  *

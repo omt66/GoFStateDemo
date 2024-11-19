@@ -1,8 +1,8 @@
 // MIT License
 
-package com.oti.gofstatedemo;
+package org.omt.gofstatedemo;
 
-import com.oti.gofstatedemo.state.StateGreen;
+import org.omt.gofstatedemo.state.StateGreen;
 
 /**
  * This is a simple traffic light demo which demonstrates the 
