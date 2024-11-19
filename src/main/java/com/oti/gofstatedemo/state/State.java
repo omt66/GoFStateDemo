@@ -4,7 +4,7 @@ package com.oti.gofstatedemo.state;
 import com.oti.gofstatedemo.TrafficLight;
 
 /**
- * This is our base class that represents the traffic light states.
+ * This is our base class that represents a traffic light state.
  * It is an abstract class that cannot be instantiated!!!
  * Also, it has an abstract method called "handle" which all the 
  * sub-classes should implement!
@@ -22,6 +22,11 @@ public abstract class State {
         return this.name;
     }
     
+    /**
+     * Handle the state transition.
+     * Needs to be implemented by the sub-classes.
+     * @param trafficLight
+     */
     public abstract void handle(TrafficLight trafficLight);
 
     @Override

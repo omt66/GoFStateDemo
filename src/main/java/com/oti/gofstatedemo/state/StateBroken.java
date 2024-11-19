@@ -15,6 +15,6 @@ public class StateBroken extends State {
 
     @Override
     public void handle(TrafficLight trafficLight) {
-        // Do nothing! Because it is in broken!!!
+        // Do nothing! Because it is in broken state!
     }
 }
