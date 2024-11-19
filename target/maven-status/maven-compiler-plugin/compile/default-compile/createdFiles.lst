@@ -1,0 +1,7 @@
+com\oti\gofstatedemo\state\StateYellow.class
+com\oti\gofstatedemo\state\StateGreen.class
+com\oti\gofstatedemo\TrafficLight.class
+com\oti\gofstatedemo\state\StateRed.class
+com\oti\gofstatedemo\state\State.class
+com\oti\gofstatedemo\state\StateBroken.class
+com\oti\gofstatedemo\GoFStateDemo.class
