@@ -7,7 +7,7 @@ import com.oti.gofstatedemo.state.StateBroken;
 /**
  * This is the main context in our application.
  * It will maintain a state (current state) and will handle some requests!
- * 
+ * In this state pattern demo, TrafficLight is the context.
  * @author omt
  */
 public class TrafficLight {
@@ -41,6 +41,4 @@ public class TrafficLight {
         System.out.println("Current state was " + currentState + " will transition to Flashing RED lights!");
         currentState = new StateBroken();
     }
-    
-    
 }
